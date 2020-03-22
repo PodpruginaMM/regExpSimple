@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form id="myform">
+
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="fullname" placeholder="Ваше ФИО...">
+
+        <label for="tel">Телефон</label>
+        <input type="text" id="tel" name="phone" placeholder="Ваш контактный телефон...">
+
+        <label for="email">Почта</label>
+        <input type="text" id="email" name="mail" placeholder="Ваша почта...">
+
+        <label for="subject">Ваш текст</label>
+        <textarea id="subject" name="subject" placeholder="Напишете здесь.." style="height:200px"></textarea>
+
+        <input type="submit" id="submit" value="Отправить">
+
+    </form>
+</div>
+<script src="form.js"></script>
+</body>
+</html>
